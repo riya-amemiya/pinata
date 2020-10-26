@@ -5,7 +5,7 @@ export default props =>
     let text =null
     return (
         <div>
-            <h1 onClick={() => { console.log(num) }}>Hello</h1>
+            <h1 onClick={() => { console.log(num) }}>Hello World</h1>
             <p>{text ? num : text + num}</p>
         </div>
     )

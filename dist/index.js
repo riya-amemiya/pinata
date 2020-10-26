@@ -27,7 +27,7 @@ exports.default = function (props) {
             { onClick: function onClick() {
                     console.log(num);
                 } },
-            'Hello'
+            'Hello World'
         ),
         _react2.default.createElement(
             'p',
