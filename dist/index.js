@@ -15,7 +15,7 @@ export default (props => {
         React.createElement(
             'p',
             null,
-            text ? num : text + num
+            num
         )
     );
 });

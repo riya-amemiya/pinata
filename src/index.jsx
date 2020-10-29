@@ -6,7 +6,7 @@ export default props =>
     return (
         <div>
             <h1 onClick={() => { setNum(num + 1) }}>Hello World</h1>
-            <p>{text ? num : text + num}</p>
+            <p>{num}</p>
         </div>
     )
 }
